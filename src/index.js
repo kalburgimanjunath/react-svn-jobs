@@ -17,7 +17,7 @@ import { EarthoOneProvider } from '@eartho/one-client-react';
 // };
 root.render(
   <StrictMode>
-    <EarthoOneProvider clientId="9sRcAsKB9YODMjCbrjcH">
+    <EarthoOneProvider clientId="oklcTDB4WzJ75u5JC8bW">
       {/* <Provider template={AlertTemplate} {...options}> */}
       <App />
       {/* </Provider> */}

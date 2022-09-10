@@ -31,7 +31,7 @@ export default function App() {
   } else {
     return (
       <div className="login">
-        <h4>Please login to start adding your content</h4>
+        <h4>Please login to start adding job opportunities</h4>
         <img
           src="https://media-exp1.licdn.com/dms/image/C560BAQFluX6wXyNFaw/company-logo_100_100/0/1604981764085?e=1671062400&v=beta&t=_cuback8gbjdoq9FCuDsee7Zty47V-Aq3a8X7GqUkO0"
           width="100"
@@ -42,7 +42,7 @@ export default function App() {
             className="btn btn-outline-success"
             id="login"
             onClick={() =>
-              connectWithPopup({ access_id: 'cR4Su0XbBLChL3UnHGHc' })
+              connectWithPopup({ access_id: 'qlIL8kvhhbJEbjtj2ILT' })
             }
           >
             Log in

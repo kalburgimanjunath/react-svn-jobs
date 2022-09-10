@@ -35,5 +35,5 @@ body {
 }
 .ideas-list {
   overflow: auto;
-  max-height: calc(100% - 49%);
+  max-height: calc(100% - 10%);
 }

@@ -12,7 +12,7 @@ export default function AddIdea({ user }) {
   const [image_url, setUrl] = useState();
   useEffect(() => {
     fetch(
-      'https://api.airtable.com/v0/appWToptGxYlLEtgo/Contents?api_key=keyeNXyxxuuYJY19w'
+      'https://api.airtable.com/v0/appWToptGxYlLEtgo/Jobs?api_key=keyeNXyxxuuYJY19w'
     )
       .then((res) => res.json())
       .then((response) => {
@@ -40,7 +40,7 @@ export default function AddIdea({ user }) {
     //   .then((response) => response.json())
     //   .then((data) => console.log(data.url));
 
-    const url = `https://api.airtable.com/v0/appWToptGxYlLEtgo/Contents`;
+    const url = `https://api.airtable.com/v0/appWToptGxYlLEtgo/Jobs`;
     const requestOptions = {
       method: 'POST',
       headers: {
@@ -137,7 +137,7 @@ export default function AddIdea({ user }) {
               </FormGroup>
               <Field type="hidden" name="author" value={user.user.email} />
               <Button type="submit" className="primary" disabled={isSubmitting}>
-                Add Idea
+                Add Jobs
               </Button>
             </Form>
           )}
