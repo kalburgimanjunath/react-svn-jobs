@@ -63,7 +63,7 @@ export default function AddIdea({ user }) {
           width="100"
           height="100"
         /> */}
-        <h1>Sensvio Content</h1>
+        <h1>Sensvio Jobs</h1>
         <Formik
           initialValues={{
             title: '',

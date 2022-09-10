@@ -4,6 +4,7 @@ import {
   ListGroupItem,
   ListGroupItemHeading,
   ListGroupItemText,
+  Button,
 } from 'reactstrap';
 export default function ListIdea({ ideas }) {
   let count = 0;
@@ -25,6 +26,13 @@ export default function ListIdea({ ideas }) {
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {item.fields['description']}
+                  </ListGroupItemText>
+                  <ListGroupItemText>
+                    Apply at Company &nbsp;
+                    <a href={item.fields['url']} target="_new">
+                      Website
+                    </a>
+                    <Button type="submit" title="Apply">Apply</Button>
                   </ListGroupItemText>
                 </ListGroupItem>
               </>
