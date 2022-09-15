@@ -127,7 +127,7 @@ export default function AddIdea({ user }) {
                 <ErrorMessage name="image" component="div" />
               </FormGroup>
               <FormGroup row>
-                <Label htmlFor="url">Demo url</Label>
+                <Label htmlFor="url">Company Job Posting url</Label>
                 <Field
                   type="text"
                   name="url"
